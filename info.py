@@ -11,10 +11,10 @@ def is_enabled(value, default):
         return default
 
 # Bot information
-SESSION = environ.get('SESSION', 'TAMIM-BJ')
+SESSION = environ.get('SESSION', 'TAMIM-B-JIDDI')
 API_ID = int(environ.get('API_ID', '23068172'))
 API_HASH = environ.get('API_HASH', '0192fd3730b181af037274f8d718c479')
-BOT_TOKEN = environ.get('BOT_TOKEN', "")
+BOT_TOKEN = environ.get('BOT_TOKEN', "6240976304:AAEXWTbIYiUXtqH-Ayz5Ep6wNsAxdfsTUBI")
 
 #Port
 PORT = environ.get("PORT", "8080")
@@ -46,7 +46,7 @@ P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "True")), False)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), False)
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "⚡<b>File uploaded by [Movies Adaa™](https://t.me/movie_requestgroups)</b>⚡\n\nName: {file_caption} \n\n⚙️ <b>Size: </b><code>{file_size}</code>\n\n\n🔥  ↭ <b>Join Now [MoviesRequest ™](https://t.me/movie_requestgroups)</b> ↭  🔥")
-BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", "⚡<b>File uploaded by [Movies Adaa™](https://t.me/real_MoviesAdda1)</b>⚡\n\nName: {file_caption} \n\n⚙️ <b>Size: </b><code>{file_size}</code>\n\n\n🔥  ↭ <b>Join Now [MoviesRequest™](https://t.me/movie_requestgroups)</b> ↭  🔥")
+BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", "⚡<b>File uploaded by [Movies Adaa™](https://t.me/miniflix_h2r)</b>⚡\n\nName: {file_caption} \n\n⚙️ <b>Size: </b><code>{file_size}</code>\n\n\n🔥  ↭ <b>Join Now [MoviesRequest™](https://t.me/movie_requestgroups)</b> ↭  🔥")
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "<b>Your Query: {query}</b> \n‌‌‌‌IMDb: \n\n🏷 Title: {title}\n🌟 Rating : {rating}/10\n🎭 Genres: {genres}\n📆 Year: {year}\n⏰ Duration : {runtime}\n🎙️ Languages : {languages}\n🔖 Plot : {plot}\n\n♥️ we are nothing without you ♥️ \n\n😈TJ KING IS BACK\n\n⚠️Click on the button 👇 below to get your query privately")
 LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False"), False)
 SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "True"), False)
